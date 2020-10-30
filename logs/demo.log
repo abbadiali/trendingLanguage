@@ -1,0 +1,28 @@
+2020-10-29 23:20:55.444  INFO 3076 --- [main] com.gemography.test.TestApplication      : Starting TestApplication on DESKTOP-F1ECT4B with PID 3076 (C:\Users\aliab\OneDrive\Documents\WORKSPACE\test\target\classes started by aliab in C:\Users\aliab\OneDrive\Documents\WORKSPACE\test)
+2020-10-29 23:20:55.450  INFO 3076 --- [main] com.gemography.test.TestApplication      : No active profile set, falling back to default profiles: default
+2020-10-29 23:20:57.278  INFO 3076 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-10-29 23:20:57.315  INFO 3076 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24ms. Found 0 JPA repository interfaces.
+2020-10-29 23:20:58.337  INFO 3076 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-29 23:20:58.353  INFO 3076 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-29 23:20:58.354  INFO 3076 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-29 23:20:58.595  INFO 3076 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-29 23:20:58.596  INFO 3076 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3018 ms
+2020-10-29 23:20:58.956  INFO 3076 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-29 23:20:58.971  INFO 3076 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-29 23:20:59.134  INFO 3076 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-29 23:20:59.222  INFO 3076 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-29 23:20:59.331  INFO 3076 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-29 23:20:59.627  INFO 3076 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-29 23:20:59.883  INFO 3076 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-10-29 23:21:00.216  WARN 3076 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-29 23:21:00.736  INFO 3076 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-29 23:21:00.748  INFO 3076 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-29 23:21:02.003  INFO 3076 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-29 23:21:02.547  INFO 3076 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-10-29 23:21:02.549  INFO 3076 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-10-29 23:21:02.570  INFO 3076 --- [main] com.gemography.test.TestApplication      : Started TestApplication in 8.221 seconds (JVM running for 11.086)
+2020-10-29 23:21:12.597  INFO 3076 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-29 23:21:12.598  INFO 3076 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-29 23:21:12.630  INFO 3076 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 32 ms
+2020-10-29 23:21:16.129  WARN 3076 --- [http-nio-8080-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /swagger-ui.html
+2020-10-29 23:21:28.154  WARN 3076 --- [http-nio-8080-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /rest/docs
